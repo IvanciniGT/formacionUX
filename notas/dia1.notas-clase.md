@@ -289,3 +289,5 @@ En muchas apps: Tiktok, instagram, Facebook, cuando hago clic (pulso con el dedo
 
 - No quitarle el acceso a lo que ya lleva hecho.
 - Generar un perfil más detallado.
+
+---

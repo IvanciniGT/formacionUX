@@ -9,7 +9,6 @@
    1.4. Importancia de la UX en el desarrollo de productos digitales  
    1.5. Ejemplos de buena y mala UX (incluyendo casos como Snapchat, Apple’s Butterfly Keyboard, y los jabones de hotel)  
    1.6. Ciclo de Evaluación de Usabilidad
-   1.7. Actividad de discusión: Análisis de productos cotidianos desde la perspectiva de la UX  
 
 2. **Storyboards de UX y Flujos de Usuario**
 
@@ -19,25 +18,21 @@
    2.4. ¿Qué son los Flujos de Usuario?
    2.5. Beneficios de los Flujos de Usuario.
    2.6. Ejemplo de Flujo de Usuario.
-   2.7. Actividad práctica: Creación de un Storyboard y un Flujo de Usuario.
 
 3. **Introducción a la Usabilidad**  
    3.1. Definición de Usabilidad y sus Principios  
    3.2. Impacto de la usabilidad en la UX  
    3.3. Principales métricas de usabilidad: Eficiencia, Efectividad y Satisfacción  
-   3.4. Actividad práctica: Evaluación de la usabilidad de un sitio web o app
 
 4. **Arquitectura de la Información**  
    4.1. Definición de Arquitectura de la Información  
    4.2. Principios de la Arquitectura de la Información (Jerarquía, Agrupación lógica, Navegabilidad)  
    4.3. Ejemplos Prácticos de Arquitectura de la Información  
-   4.4. Actividad práctica: Creación de un esquema de arquitectura para un sitio web
 
 5. **Navegabilidad y Menús**  
    5.1. Tipos de Menús y Elementos de Navegación  
    5.2. Buenas Prácticas de Navegación  
    5.3. Uso de Herramientas de Wireframing  
-   5.4. Actividad práctica: Creación de un Wireframe de Navegación  
 
 6. **Conclusiones del Día 1**  
    6.1. Resumen de los conceptos clave de UX y Usabilidad  
@@ -160,17 +155,6 @@ Los siguientes ejemplos destacan cómo la experiencia de usuario puede ser un fa
   - **Rediseño/Implementación de Mejoras**: Ajustar el diseño para solucionar los problemas encontrados.
   - **Iteración**: Repetir el proceso hasta que el producto alcance un nivel adecuado de usabilidad.
 - **Importancia**: Este ciclo es fundamental para comprender que la usabilidad no es un objetivo que se alcanza de una vez, sino un proceso continuo de mejora. Es común encontrar este ciclo en libros y recursos sobre usabilidad y diseño centrado en el usuario.
-
-
-#### 1.7. Actividad de Discusión: Análisis de Productos Cotidianos desde la Perspectiva de la UX (30 minutos)
-
-- **Objetivo**: Que los participantes comprendan cómo la UX influye en su percepción y satisfacción con los productos y servicios que usan diariamente.
-- **Instrucciones**:
-  - Dividir a los participantes en grupos de 3 a 5 personas.
-  - Cada grupo debe elegir un producto digital o físico que consideren fácil de usar y otro que encuentren frustrante.
-  - Analizar los elementos de UX de cada producto: ¿Qué hace que uno sea placentero y el otro frustrante? ¿Es la interfaz, la velocidad, la simplicidad, la accesibilidad?
-  - Cada grupo presenta sus conclusiones en una breve exposición (5 minutos por grupo), y se discuten los aprendizajes más relevantes para entender cómo mejorar la UX en sus propios proyectos.
-- **Conclusión de la Actividad**: Identificar patrones comunes que hacen que un producto sea exitoso o un fracaso desde el punto de vista de la UX, y cómo esos principios pueden aplicarse para mejorar la experiencia de usuario en nuevos desarrollos.
 
 ---
 
@@ -377,21 +361,6 @@ Imagina un flujo de usuario para **registrarse en una plataforma de streaming de
 
 Este flujo muestra todos los pasos necesarios para que un usuario se registre, indicando los posibles puntos de bloqueo (como un formulario incompleto) y las decisiones que afectan su recorrido.
 
-#### 2.7. Actividad Práctica: Creación de un Storyboard y un Flujo de Usuario (1 hora)
-
-- **Objetivo**: Aplicar los conceptos de storyboarding y flujos de usuario para visualizar la experiencia y navegación de un usuario en un escenario específico.
-- **Instrucciones**:
-  - Dividir a los participantes en grupos de 3 a 5 personas.
-  - Proveer un caso práctico, como: **Diseñar el flujo de usuario para un usuario que desea comprar un producto en una tienda online**.
-  - Cada grupo debe:
-    - Crear un storyboard que muestre los diferentes momentos de la experiencia del usuario durante el proceso de compra.
-    - Diseñar un flujo de usuario que detalle cada paso de la interacción desde la página de inicio hasta la confirmación de la compra.
-  - Usar herramientas como PowerPoint, Figma, Lucidchart, o lápiz y papel para crear los diagramas.
-
-- **Presentación y Evaluación**:
-  - Cada grupo presenta su storyboard y flujo de usuario (5 minutos por grupo).
-  - Evaluar la claridad de las interacciones, la identificación de puntos de dolor, y la simplicidad del flujo.
-  - Proporcionar retroalimentación sobre cómo mejorar la experiencia del usuario en los escenarios presentados y qué ajustes podrían optimizar el proceso.
 
 ---
 
@@ -470,20 +439,6 @@ Para diseñar interfaces que sean altamente usables, existen varios principios d
 - **Stripe (Plataforma de Pagos)**:
   - **Descripción**: Stripe es una plataforma de pagos que ofrece una interfaz intuitiva para desarrolladores y empresas. Su documentación clara y su API fácil de integrar han sido fundamentales para su éxito.
   - **Principios Aplicados**: Consistencia y estándares, control del usuario (facilidad para personalizar la experiencia de pago) y prevención de errores (documentación detallada que ayuda a evitar problemas comunes).
-
-#### 3.6. Actividad Práctica: Evaluación de la Usabilidad de un Sitio Web o App (45 minutos)
-
-- **Objetivo**: Que los participantes apliquen los conceptos de usabilidad evaluando un sitio web o una aplicación desde las perspectivas de efectividad, eficiencia y satisfacción.
-- **Instrucciones**:
-  - Dividir a los participantes en grupos de 3 a 5 personas.
-  - Proveer una lista de sitios web o aplicaciones para evaluar (por ejemplo, una tienda online, una aplicación de noticias, una red social).
-  - Cada grupo debe analizar:
-    - **Efectividad**: ¿Pueden los usuarios completar tareas comunes (registrarse, buscar un producto, enviar un mensaje) sin problemas?
-    - **Eficiencia**: ¿Cuántos clics y cuánto tiempo toma completar cada tarea? ¿Existen pasos innecesarios?
-    - **Satisfacción**: ¿Cuál es la percepción general de los usuarios sobre la interfaz? ¿Qué elementos generan frustración?
-  - Pedirles que anoten sus observaciones y sugieran mejoras para cada aspecto de la usabilidad.
-  - Cada grupo presenta un breve resumen de sus hallazgos al resto de la clase (5 minutos por grupo).
-- **Conclusión de la Actividad**: Discutir qué problemas de usabilidad son más comunes y qué principios de diseño podrían aplicarse para mejorar la experiencia. Identificar cómo la mejora de la usabilidad puede traducirse en una experiencia de usuario más satisfactoria.
 
 ---
 
@@ -585,21 +540,6 @@ Para consolidar el concepto de arquitectura de la información, es útil analiza
   - **Agrupación Lógica**: Artículos agrupados por categorías temáticas como "Noticias", "Tutoriales", y "Opiniones", facilitando a los usuarios encontrar contenido específico según sus intereses.
   - **Navegabilidad**: Uso de menús desplegables y un buscador que permite a los usuarios acceder a contenido específico rápidamente.
 
-#### 4.4. Actividad Práctica: Creación de un Esquema de Arquitectura de la Información (1 hora)
-
-- **Objetivo**: Aplicar los principios de arquitectura de la información para diseñar una estructura lógica y coherente para un sitio web o aplicación, mejorando la organización del contenido y la navegabilidad.
-- **Instrucciones**:
-  - Dividir a los participantes en grupos de 3 a 5 personas.
-  - Proveer un caso práctico, como por ejemplo: **Diseñar la estructura de un sitio web para una tienda de ropa online**.
-  - Cada grupo debe diseñar un esquema que incluya:
-    - **Menú principal y submenús**: Ejemplo: "Hombres", "Mujeres", "Accesorios", "Ofertas".
-    - **Categorías de productos**: Ejemplo: Dentro de "Hombres", incluir "Camisas", "Pantalones", "Chaquetas".
-    - **Opciones de filtrado**: Ejemplo: Dentro de cada categoría, permitir filtrar por "Precio", "Tamaño", "Color", "Marca".
-  - Utilizar una herramienta de diagramación como Miro, Lucidchart, o lápiz y papel para crear un esquema visual de la arquitectura.
-  - Cada grupo presenta su propuesta (5 minutos por grupo), explicando las decisiones tomadas sobre la jerarquía y la organización de la información.
-  
-- **Evaluación de la actividad**: Discutir la claridad y la eficacia de cada estructura propuesta, identificar qué esquemas facilitan la navegación y qué aspectos podrían mejorarse. Proporcionar retroalimentación constructiva para que los participantes comprendan cómo aplicar estos principios en sus propios proyectos.
-
 ---
 
 ### **5. Navegabilidad y Menús**
@@ -682,78 +622,5 @@ El **wireframing** es una técnica fundamental en el diseño de interfaces, ya q
   - **Sketch**: Popular entre diseñadores de UI/UX, es útil para crear wireframes y prototipos de alta fidelidad. Permite una mayor personalización de los elementos de diseño.
   - **Adobe XD**: Facilita la creación de wireframes y prototipos interactivos, y es especialmente útil para diseñadores que ya están familiarizados con la suite de Adobe.
 
-#### 5.4. Actividad Práctica: Creación de un Wireframe de Navegación (1 hora)
-
-- **Objetivo**: Que los participantes apliquen los conceptos de navegabilidad y diseño de menús creando un wireframe que muestre la disposición básica de un sitio web o aplicación.
-- **Instrucciones**:
-  - Dividir a los participantes en grupos de 3 a 5 personas.
-  - Proveer un caso práctico, como: **Diseñar un wireframe para la página principal de una plataforma de e-learning**.
-  - Cada grupo debe:
-    - Crear un wireframe que incluya:
-      - **Menú principal** con secciones como "Inicio", "Cursos", "Mi Perfil", y "Contacto".
-      - **Navegación secundaria**: Por ejemplo, un menú lateral con los cursos disponibles y categorías.
-      - **Elementos de interacción**: Como un buscador de cursos y botones de acceso rápido a "Mis Cursos" y "Progreso".
-    - Utilizar herramientas como Figma, Balsamiq, Adobe XD, o incluso lápiz y papel para crear el wireframe.
-  - Cada grupo presenta su wireframe (5 minutos por grupo), explicando las decisiones tomadas sobre la disposición de los menús y la estructura de navegación.
-
-- **Evaluación de la Actividad**:
-  - Analizar la claridad de la estructura de navegación de cada wireframe y cómo facilita que los usuarios encuentren la información que necesitan.
-  - Proporcionar retroalimentación sobre posibles mejoras en la disposición de los elementos y cómo ajustar la estructura para hacerla más intuitiva.
-  - Identificar los wireframes que mejor aplican los principios de diseño de navegación, como la consistencia y la simplicidad, y discutir cómo se podrían implementar en un proyecto real.
 ---
 
-### **6. Conclusiones del Día 1**
-
-#### 6.1. Resumen de los Conceptos Clave de UX y Usabilidad
-
-En el primer día de la formación, nos hemos centrado en entender los fundamentos de la **experiencia de usuario (UX)** y la **usabilidad**, así como en visualizar cómo los usuarios interactúan con un producto mediante **storyboards** y **flujos de usuario**. A continuación, se resumen los puntos más importantes que hemos abordado:
-
-- **Experiencia de Usuario (UX)**:
-  - La **UX** se centra en todos los aspectos que afectan la interacción de un usuario con un producto o servicio, desde las sensaciones emocionales hasta la facilidad para alcanzar sus objetivos.
-  - Incluye elementos como la estética, la accesibilidad, la percepción de la marca y la usabilidad.
-  - Una buena experiencia de usuario es clave para la satisfacción del usuario, la retención y la lealtad hacia la marca.
-
-- **Storyboards de UX y Flujos de Usuario**:
-  - Los **storyboards** permiten visualizar la experiencia de un usuario en diferentes escenarios, ayudando a entender sus necesidades, frustraciones y momentos clave de interacción con el producto.
-  - Los **flujos de usuario** son diagramas que muestran el recorrido lógico de un usuario para completar una tarea específica, ayudando a identificar posibles problemas y simplificar el proceso.
-  - Estas herramientas son esenciales para diseñar productos más empáticos y centrados en el usuario, al anticipar sus necesidades y optimizar su recorrido.
-
-- **Usabilidad**:
-  - La **usabilidad** se centra en la facilidad con la que los usuarios pueden usar un sistema para lograr sus objetivos de forma efectiva, eficiente y satisfactoria.
-  - Los principios de la usabilidad incluyen la **efectividad** (lograr los objetivos), la **eficiencia** (reducir el esfuerzo) y la **satisfacción** (una experiencia positiva).
-  - Evaluar la usabilidad mediante pruebas con usuarios y métricas claras permite mejorar la experiencia del usuario y reducir la frustración.
-
-#### 6.2. Reflexiones sobre la Importancia de la Experiencia de Usuario
-
-- **La UX como Diferenciador Competitivo**:
-  - En un mercado saturado de aplicaciones y sitios web, una experiencia de usuario excepcional puede ser el factor diferenciador que lleve a un producto al éxito. Empresas como Apple, Dropbox y Amazon han demostrado que centrarse en el usuario y en su experiencia puede ser un gran motor de crecimiento y lealtad.
-  - Los usuarios esperan cada vez más que los productos sean intuitivos y que les ofrezcan una experiencia fluida. La UX y la usabilidad juegan un papel crucial en cumplir con estas expectativas, lo que se traduce en una mayor satisfacción y retención de clientes.
-
-- **El Papel de la Empatía en el Diseño**:
-  - Comprender a los usuarios no es solo una cuestión de datos y métricas; se trata de ponerse en su lugar y entender sus motivaciones, deseos y frustraciones. Los storyboards y los flujos de usuario ayudan a desarrollar esa empatía, creando un puente entre los diseñadores y las necesidades reales de los usuarios.
-  - Diseñar con empatía significa anticiparse a los problemas y preocupaciones de los usuarios, lo cual no solo mejora la experiencia de usuario, sino que también reduce la necesidad de soporte técnico y aumenta la percepción de valor del producto.
-
-- **Relación entre Usabilidad y UX**:
-  - Aunque la usabilidad es un componente de la UX, no son lo mismo. La usabilidad asegura que un sistema sea fácil de usar, mientras que la UX abarca todos los aspectos emocionales y contextuales de la interacción del usuario.
-  - Una interfaz usable no siempre garantiza una experiencia agradable, pero una buena UX debe ser, por definición, fácil de usar. Por ejemplo, un sitio web puede ser eficiente en términos de navegación, pero si no se siente estéticamente agradable o no genera confianza, la experiencia general del usuario será negativa.
-
-#### 6.3. Preparación para el Día 2: Diseño de Interfaz y Optimización
-
-Mañana, nos enfocaremos en temas que complementan y amplían lo aprendido hoy, profundizando en el **diseño de interfaz de usuario (UI)** y la **optimización del rendimiento web**:
-
-- **Diseño de Interfaz de Usuario (UI)**:
-  - Aprenderemos cómo combinar la estética con la funcionalidad, asegurando que los elementos visuales de una interfaz no solo sean atractivos, sino que también guíen al usuario de forma intuitiva.
-  - Abordaremos principios como el equilibrio visual, la consistencia, el uso de colores y tipografías, y cómo los elementos de la UI pueden reforzar la identidad de la marca y mejorar la percepción de calidad del producto.
-
-- **Optimización del Rendimiento Web (WPO)**:
-  - Exploraremos técnicas para optimizar la velocidad de carga de un sitio web y mejorar el rendimiento, lo que tiene un impacto directo en la experiencia del usuario y en las tasas de conversión.
-  - Discutiremos buenas prácticas para reducir el tiempo de carga, como la compresión de imágenes, el uso de caché y la minimización de archivos CSS y JavaScript.
-  - También veremos cómo herramientas como Google PageSpeed Insights y Lighthouse pueden ayudar a identificar problemas de rendimiento y sugerir mejoras.
-
-- **Actividades Prácticas del Día 2**:
-  - Rediseñaremos interfaces de usuario existentes, aplicando los principios aprendidos para mejorar su apariencia y su usabilidad.
-  - Realizaremos un análisis de rendimiento de sitios web, identificando cuellos de botella y aplicando técnicas de optimización.
-
-**Tareas para los Participantes**: 
-- Reflexionar sobre los conceptos de **UX** y **usabilidad** aplicados en productos que utilizan a diario. Identificar una experiencia de uso positiva y una negativa, y pensar en cómo podría mejorarse la negativa.
-- Identificar un sitio web o aplicación que consideren que tiene una **buena UI** y otro con una **UI mejorable**. Reflexionar sobre cómo el diseño visual afecta la experiencia de usuario y estar listos para discutirlo al inicio de la próxima sesión.
