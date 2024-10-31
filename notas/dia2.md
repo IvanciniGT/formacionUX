@@ -243,13 +243,13 @@ NECESIDADES
 CASOS DE USO -> ACTORES
 ACTORES -> USER PERSONAS
     USER PERSONAS: NO...
-    - Alumnos
-    - Profesores
+    - Alumnos   KEVIN
+    - Profesores        ROGELIO
     - Si me contrata el curso INDRA (RRHH) tendré alguien de RRHH (Paula) que querrá entrar al sistema.
 
 Habrá una información disponible. LA INFORMACION ES INFORMACION.
 Cursos:
-    - Titulo
+    - Titulo                                                        CURSOs -> INSCRIPCION
     - Descripcion
     - Complejidad
     - Duración
@@ -259,13 +259,13 @@ Cursos:
     - Enlaces a material adicional
     - Tipo de curso**
     - Estado del curso
-    Imparticiones de ese curso:
+    Imparticiones de ese curso: Semana 10 de Octubre
         - Profesor
         - Valoraiones
         - Horario
         - Enlaces de videoconferencia
         - Estadísticas de los alumnos
-        INSCRIPCIONES:
+        INSCRIPCIONES: 17 estudiantes
             - % de completado a ver como lo llevo.
             - Curso
             - Diploma
@@ -313,7 +313,7 @@ KEVIN: Inscribirse en un curso. Storyboard -> Puntos de dolor
 - Viñeta 3: Llega dentro de la plataforma y buscar cursos de git -> Es fácil -> FELIZ! ILUSIONADO!
                                             HA ENCONTRADO FACIL LA OPCION DE BUSCAR CURSOS
 - Viñeta 4: Le salen varios cursos de git!
-            Pero la herramienta muestra claramenta la información de cada curso para ayudarle a elegir -> FELIZ! ILUSIONADO! 
+            Pero la herramienta muestra claramente la información de cada curso y le asiste para ayudarle a elegir -> FELIZ! ILUSIONADO! 
 - Viñera 5: Kevin elige un curso y se inscribe -> FELIZ! ILUSIONADO!
 
 Diagrama de actividad. Ya es más formal
@@ -328,3 +328,214 @@ flowchart TB
     F --> G[Kevin elige un curso]
     G --> H[Kevin se inscribe en el curso]
 ```
+
+---
+
+DESARROLLO DE SOFTWARE
+DESARROLLO UI
+UX -> ESTRUCTURACION DE LA INFORMACION
+
+Me puedo enfrentar al problema de abajo a arriba o de arriba a abajo.
+Si tengo más o menos claro el sistema: Abajo a arriba
+    Formularios             \
+    Listado                  > Cómo lo agrupo!
+    Vistas de detalle       /
+Si no tengo claro el sistema: Arriba a abajo
+    Los niveles superiores.
+
+NECESIDADES:
+- Necesidades de información (Cosas que tiene que conocer)
+    PAULA?
+    - Ver si sus estudiantes tienen problemas / incidencias
+    - Ver un curso, con sus inscripciones y el estado de aquello
+    - Cuadro de mando general / HISTORICO
+- Necesidades de operación   (Cosas que tiene que hacer)
+    PAULA?
+    - Matricular a un alumno en un curso
+    - Buscar un curso que pueda serle de interés para contratarlo y hacer esa contratación
+
+---
+
+1 NECESIDAD
+2 CASO DE USO
+3 ACTOR/USER PERSONA
+4 STORYBOARD
+5 JERARQUIZAR LA INFORMACIÓN (CASOS DE USO / ACTORES)
+6 WIREFRAMES: ESQUELETO DE LA UI
+
+---
+
+# KEVIN en nuestra app de cursos en remoto
+
+## Buscar e inscribirse en un curso
+
+Donde vamos a poner el foco: ES LA ARQUITECTURA DE LA INFORMACIÓN / JERARQUIAS DE LA INFORMACION
+(Esto no puede ir desligado de un estudio previo: Cómo Kevin va a hacer esas operaciones en el sistema: FLUJO DE USUARIO)
+En paralelo (pero marcado por ello) le van a surgir unas necesidades de información.
+
+--> ESTRUCTURA CLARA DE INFORMACION
+    BUSQUEDA DE CURSOS
+        FILTRO
+
+        RESULTADOS
+            PRIMER NIVEL: 
+                Curso
+                Pasta
+                Duración
+                Valoraciones
+            SEGUNDO NIVEL: COMO SE LO MUESTRO? No hablo de UI, aunque a nivel de UI se verá repercutido. Hablo de usabilidad
+                TITULO
+                Temario                         En una ventana nueva:    SOLO ME QUIERO ENFOCAR EN ESTO y el CONTEXTO DEJA DE INTERESARME: 
+                                                                                    Gestión de expedientes y quiero hacer una operación sobre un expte.
+                Objetivos                       En una ventana modal:    SI QUIERO MANTENER EL CONTEXTO: MUCHOS DATOS *** LATERAL
+                Precio                          En una caja desplegable: SI QUIERO MANTENER EL CONTEXTO: POCOS DATOS
+                Tipo de curso
+                Imparticiones
+                Profesor
+                Valoraciones
+                Alumnos inscritos (Número)
+--> WIREFRAME / BOCETO DE LA UI
+    BUSQUEDA DE CURSOS
+
+STORYBOARD:
+    -> HA ENCONTRADO FACIL LA OPCION DE BUSCAR CURSOS
+    -> La herramienta muestra claramente la información de cada curso y le asiste para ayudarle a elegir -> FELIZ! ILUSIONADO!
+        ?? - Cómo le asiste? - Cómo le ayuda a elegir?
+         - Listado FILTRABLE de cursos que le puedan interesas con la información que le pueda interesar de cada uno (para la toma de decisiones: valoraciones... precio... duración... temario)
+         - COMPARADOR DE CURSOS ! (No se si será interesante... pero estamos haciendo brainstorming!)
+         - ENTREVISTA A KEVIN (Dame más datos... que te ayude): FORMULARIO GUAY !
+ACTIVIDAD:
+    -> Kevin quiere buscar cursos de GIT -> PANTALLA (BOTON DE BUSQUEDA PARA INSCRIBIRSE)
+          - MENU PRINCIPAL (INSCRIBIRTE A NUEVO CURSO) ESTO TIENE TODO EL SENTIDO... sobre todo si pensamos más allá!
+          - CENTRADO EN LA PANTALLA. TIENE MUCHO SENTIDO... cuando? Cuando no tiene ningún curso. -> LISTADO DE CURSOS DISPONIBLES
+
+
+
+## Con kevin ya inscrito en un curso, su forma de operar en la app: Kevin se pone a hacer el curso
+
+Ayudar a Kevin con sus puntos de dolor? STORYBOARD
+- Le ha costado encontrar el curso <- Email inicial de bienvenida (con enlaces, instrucciones)
+- No sabe por donde empezar             Pantalla de inicio del curso
+- Preparativos de la formación DUDAS
+
+Operativa / Estructura de información
+    PANTALLA
+        Curso en el que está matriculado
+
+Si Kevin,, cuando entre a la app tiene muchas opciones/operaciones disponibles plantearemos un tipo de menu, si tiene pocas, plantearé otro tipo de menú / o ni menú
+
+OPERACIONES/CASOS DE USO DE KEVIN
+
+MENU HORIZONTAL: Generalmente los tenemos presentes en todo momento (al hacer scroll puedo quitarlos)
+MENU VERTICAL:   Normalmente a la izquierda. Puedo tenerlo siempre presente o no (se pueden ocultar con algún mecanismo).
+MENU DESPLEGABLE (dentro de un menú horizontal, banner)
+- Registrarse en un curso / Buscar cursos          
+- Realizar un curso en el que está matriculado (con todo lo que implica)
+- Ver cursos pasados
+
+    OPCION 1:
+    - Inscribirme en nuevo curso
+    - Mis cursos actuales* ---------> Listado de los actuales (Donde estará el de GIT)
+    - Cursos pasados
+
+    OPCION 2: (DESCARTADA)
+    - Inscribirme en nuevo curso
+    - Mis cursos*
+
+    OPCION 3:
+    - Inscribirme en nuevo curso
+    - Mis cursos (TITULO)
+      - Actuales*
+      - Pasados
+
+    OPCION 4:
+    - Inscribirme en nuevo curso
+    - Cursos actuales:
+        GIT*                        \                           Si está solo en un curso actual vigente... a él (o al ultimo)
+        JAVA                         \ Por frecuencia de uso
+        ANGULAR                      /
+        Otros                       /
+    - Cursos pasados:
+        HTML        Por antigüedad
+        CSS
+        Otros
+
+
+PAGINA PRINCIPAL! (Pantalla de inicio)
+
+       [Inscribirme en un nuevo curso]
+    ------------------------------------
+        Cursos actuales carrusel
+    ------------------------------------
+        Cursos pasados carrusel
+    ------------------------------------
+        Nuevos cursos disponibles
+
+## YA HA ENTRADO AL CURSO DE GIT
+
+ESTADO DEL CURSO: MAQUINAS DE ESTADOS (UML)
+  CURSO: EN INSCRIPCIONES > INICIADO > ACABADO
+
+- Datos generales del curso (reducidos)
+- Guía del curso (temario)
+- Preparativos
+              - Progreso del curso
+- Videoconferencias
+- Materiales
+              - Ejercicios
+              - Autoevaluaciones
+              - Diploma
+- Mensajes / Comunicaciones (DUDA) (TRABAJO CON UN COMPAÑERO)
+
+
+
+Cual es nuestro objetivo? AYUDAR A KEVIN a conseguir SU OBJETIVO MAS RAPIDO Y FACILMENTE:
+- Encontrar fácil la información/operaciones que necesita   -> EFICACIA     (que no tenga que pensar)
+- Que tenga que hacer poco trabajo para llegar a ellas      -> EFICIENCIA   (pocos clics, y poco teclado)
+
+Esas operaciones ^^^ son operaciones entre las que vaq a cambiar con frecuencia o no? O cuando esté en una, las otras le interesan poco.
+
+- Comunicaciones (Mensajería interna, otro tipo de avisos:El sistema está en mnto de las 13:00 a las 15:00 el jueves) (BANNER)
+- Editar su perfil (BANNER)
+- Configuración (BANNER)
+
+
+Tenemos una app para formaciones REMOTAS
+
+
+
+## Cuando Kevin acaba el curso...
+
+- Certificado
+- Revisión de los materiales
+
+---
+
+
+BUSQUEDA DE PERSONAS en una app de una empresa
+
+DNI | Nombre | Apellidos | Email | Telefono
+
+
+    FORMULARIO DE BUSQUEDA DE PERSONAS:
+    -------------------------------------
+    DNI:
+    Nombre:
+    Apellidos:
+    Email:
+    Telefono:
+    -------------------------------------
+                        Botón: [BUSCAR] 
+
+    Formulario tradicional. La BBDD en pantalla
+
+---
+
+    Datos de la persona que busca: [                                      |BUSCAR]
+                                    telefono
+                                    dni
+                                    nombre
+                                    apellidos
+                                    nombre y apellidos
+                                    email
+TRIGRAMAS

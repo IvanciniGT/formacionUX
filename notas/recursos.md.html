@@ -1,0 +1,523 @@
+<!DOCTYPE html><html><head>
+      <title>recursos.md</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/ivan/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.14/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h2 id="bibliografia-y-recursos-de-interes"><strong>BIBLIOGRAFIA y RECURSOS DE INTERES</strong> </h2>
+<h3 id="ux-user-experience"><strong>UX (User Experience)</strong> </h3>
+<ul>
+<li><a href="#1-libros-sobre-ux">1. Libros sobre UX</a></li>
+<li><a href="#2-webs-sobre-ux">2. Webs sobre UX</a></li>
+</ul>
+<h3 id="usabilidad"><strong>Usabilidad</strong> </h3>
+<ul>
+<li><a href="#1-libros-sobre-usabilidad-1">1. Libros sobre Usabilidad</a></li>
+<li><a href="#2-webs-sobre-usabilidad-1">2. Webs sobre Usabilidad</a></li>
+</ul>
+<h3 id="ui-user-interface"><strong>UI (User Interface)</strong> </h3>
+<ul>
+<li><a href="#1-libros-sobre-ui">1. Libros sobre UI</a></li>
+<li><a href="#2-webs-sobre-ui">2. Webs sobre UI</a></li>
+<li><a href="#3-gu%C3%ADas-de-estilo">3. Guías de Estilo</a>
+<ul>
+<li><a href="#windows">Windows</a></li>
+<li><a href="#macos">macOS</a></li>
+<li><a href="#android">Android</a></li>
+<li><a href="#ios">iOS</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="herramientas-para-ux-experiencia-de-usuario"><strong>Herramientas para UX (Experiencia de Usuario)</strong> </h3>
+<ul>
+<li><a href="#1-investigaci%C3%B3n-y-mapas-mentales">1. Investigación y Mapas Mentales</a></li>
+<li><a href="#2-wireframing-y-prototipado">2. Wireframing y Prototipado</a></li>
+<li><a href="#3-pruebas-de-usabilidad">3. Pruebas de Usabilidad</a></li>
+<li><a href="#4-an%C3%A1lisis-y-mapas-de-calor">4. Análisis y Mapas de Calor</a></li>
+</ul>
+<h3 id="herramientas-para-ui-interfaz-de-usuario"><strong>Herramientas para UI (Interfaz de Usuario)</strong> </h3>
+<ul>
+<li><a href="#1-dise%C3%B1o-y-prototipado-visual">1. Diseño y Prototipado Visual</a></li>
+<li><a href="#2-componentes-y-sistemas-de-dise%C3%B1o">2. Componentes y Sistemas de Diseño</a></li>
+<li><a href="#3-tipograf%C3%ADa-y-paletas-de-colores">3. Tipografía y Paletas de Colores</a></li>
+</ul>
+<h3 id="accesibilidad"><strong>Accesibilidad</strong> </h3>
+<ul>
+<li><a href="#1-normas-y-est%C3%A1ndares-internacionales">1. Normas y Estándares Internacionales</a></li>
+<li><a href="#2-gu%C3%ADas-y-centros-de-recursos-de-accesibilidad">2. Guías y Centros de Recursos de Accesibilidad</a></li>
+<li><a href="#3-art%C3%ADculos-blogs-y-sitios-de-informaci%C3%B3n">3. Artículos, Blogs y Sitios de Información</a></li>
+<li><a href="#4-organizaciones-y-redes-de-profesionales">4. Organizaciones y Redes de Profesionales</a></li>
+</ul>
+<h3 id="herramientas-de-diagnóstico-y-pruebas"><strong>Herramientas de Diagnóstico y Pruebas</strong> </h3>
+<ul>
+<li><a href="#1-herramientas-de-evaluaci%C3%B3n-autom%C3%A1tica">1. Herramientas de Evaluación Automática</a></li>
+<li><a href="#2-herramientas-para-testing-automatizado-en-cicd">2. Herramientas para Testing Automatizado en CI/CD</a></li>
+<li><a href="#3-herramientas-de-lectores-de-pantalla">3. Herramientas de Lectores de Pantalla</a></li>
+<li><a href="#4-simuladores-de-discapacidad">4. Simuladores de Discapacidad</a></li>
+<li><a href="#5-generadores-y-validadores-de-contraste">5. Generadores y Validadores de Contraste</a></li>
+<li><a href="#6-herramientas-para-dise%C3%B1o-inclusivo">6. Herramientas para Diseño Inclusivo</a></li>
+<li><a href="#7-pruebas-de-accesibilidad-y-evaluaci%C3%B3n-de-contenido">7. Pruebas de Accesibilidad y Evaluación de Contenido</a></li>
+</ul>
+<h2 id="ux-user-experience-1"><strong>UX (User Experience)</strong> </h2>
+<h3 id="1-libros-sobre-ux"><strong>1. Libros sobre UX</strong> </h3>
+<ol>
+<li>
+<p><strong>"Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability"</strong> de Steve Krug<br>
+<em>Un clásico sobre UX y usabilidad web, accesible y práctico, que cubre los fundamentos de la experiencia de usuario de manera comprensible y concisa.</em></p>
+</li>
+<li>
+<p><strong>"The Design of Everyday Things"</strong> de Don Norman<br>
+<em>Explora cómo el diseño afecta la interacción humana, desde productos físicos hasta interfaces digitales. Fundamental para comprender los principios detrás de UX.</em></p>
+</li>
+<li>
+<p><strong>"Lean UX: Applying Lean Principles to Improve User Experience"</strong> de Jeff Gothelf y Josh Seiden<br>
+<em>Combina los principios de Lean con UX para crear productos de forma colaborativa y efectiva.</em></p>
+</li>
+<li>
+<p><strong>"About Face: The Essentials of Interaction Design"</strong> de Alan Cooper, Robert Reimann y David Cronin<br>
+<em>Un enfoque completo sobre el diseño de interacción y la experiencia del usuario, centrado en la creación de productos intuitivos.</em></p>
+</li>
+<li>
+<p><strong>"Seductive Interaction Design"</strong> de Stephen Anderson<br>
+<em>Explora cómo hacer interfaces que no solo sean útiles, sino también atractivas y seductoras para los usuarios.</em></p>
+</li>
+</ol>
+<h3 id="2-webs-sobre-ux"><strong>2. Webs sobre UX</strong> </h3>
+<ol>
+<li>
+<p><a href="https://www.nngroup.com/">Nielsen Norman Group</a><br>
+<em>Investigaciones, artículos y recursos sobre UX, creados por uno de los pioneros de la usabilidad, Jakob Nielsen.</em></p>
+</li>
+<li>
+<p><a href="https://www.uxdesigninstitute.com/">UX Design Institute</a><br>
+<em>Ofrece cursos, artículos y recursos que cubren aspectos clave de la experiencia del usuario.</em></p>
+</li>
+<li>
+<p><a href="https://www.smashingmagazine.com/category/uxdesign">Smashing Magazine</a><br>
+<em>Publicaciones, tutoriales y guías detalladas sobre diseño de experiencia de usuario y usabilidad.</em></p>
+</li>
+<li>
+<p><a href="https://alistapart.com/">A List Apart</a><br>
+<em>Enfocado en el diseño y desarrollo web, con una fuerte inclinación hacia UX y diseño inclusivo.</em></p>
+</li>
+</ol>
+<hr>
+<h2 id="usabilidad-1"><strong>Usabilidad</strong> </h2>
+<h3 id="1-libros-sobre-usabilidad"><strong>1. Libros sobre Usabilidad</strong> </h3>
+<ol>
+<li>
+<p><strong>"Designing Web Usability"</strong> de Jakob Nielsen<br>
+<em>Considerado uno de los libros esenciales sobre usabilidad, aborda principios y pautas que han establecido un estándar en la industria.</em></p>
+</li>
+<li>
+<p><strong>"Measuring the User Experience"</strong> de Bill Albert y Tom Tullis<br>
+<em>Enseña cómo medir y evaluar la experiencia del usuario a través de métodos cuantitativos y cualitativos.</em></p>
+</li>
+<li>
+<p><strong>"Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests"</strong> de Jeffrey Rubin y Dana Chisnell<br>
+<em>Guía práctica sobre pruebas de usabilidad, ideal para cualquier profesional que desee profundizar en técnicas de evaluación.</em></p>
+</li>
+<li>
+<p><strong>"Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems"</strong> de Steve Krug<br>
+<em>Se centra en la simplicidad de realizar pruebas de usabilidad de bajo costo y cómo mejorar los problemas comunes.</em></p>
+</li>
+<li>
+<p><strong>"Usability Engineering"</strong> de Jakob Nielsen<br>
+<em>Un enfoque más técnico sobre cómo integrar usabilidad en el ciclo de desarrollo de productos.</em></p>
+</li>
+</ol>
+<h3 id="2-webs-sobre-usabilidad"><strong>2. Webs sobre Usabilidad</strong> </h3>
+<ol>
+<li>
+<p><a href="https://www.usability.gov/">Usability.gov</a><br>
+<em>Recursos del gobierno de EE.UU. sobre usabilidad, incluidos estudios de caso, guías y mejores prácticas.</em></p>
+</li>
+<li>
+<p><a href="https://baymard.com/">Baymard Institute</a><br>
+<em>Investigaciones en usabilidad con estudios detallados de usabilidad web, especialmente útiles para e-commerce.</em></p>
+</li>
+<li>
+<p><a href="https://www.interaction-design.org/literature/topics/usability">Interaction Design Foundation - Usability</a><br>
+<em>Artículos y materiales gratuitos sobre usabilidad, accesibilidad y diseño de interacción.</em></p>
+</li>
+<li>
+<p><a href="https://www.uxmatters.com/">UX Matters</a><br>
+<em>Recursos útiles, incluyendo artículos y columnas de expertos sobre usabilidad y diseño de experiencia de usuario.</em></p>
+</li>
+</ol>
+<hr>
+<h2 id="ui-user-interface-1"><strong>UI (User Interface)</strong> </h2>
+<h3 id="1-libros-sobre-ui"><strong>1. Libros sobre UI</strong> </h3>
+<ol>
+<li>
+<p><strong>"Refactoring UI"</strong> de Adam Wathan y Steve Schoger<br>
+<em>Ofrece técnicas y consejos sobre cómo crear interfaces de usuario visualmente atractivas y funcionales.</em></p>
+</li>
+<li>
+<p><strong>"Designing Interfaces: Patterns for Effective Interaction Design"</strong> de Jenifer Tidwell<br>
+<em>Una referencia de patrones de diseño de interfaz que cubre desde fundamentos hasta ejemplos avanzados.</em></p>
+</li>
+<li>
+<p><strong>"UI is Communication"</strong> de Everett McKay<br>
+<em>Presenta la UI como una forma de comunicación, con enfoques claros sobre cómo hacer que las interfaces sean intuitivas.</em></p>
+</li>
+<li>
+<p><strong>"Microinteractions: Designing with Details"</strong> de Dan Saffer<br>
+<em>Explora el diseño de microinteracciones y cómo afectan la experiencia general del usuario en interfaces.</em></p>
+</li>
+<li>
+<p><strong>"Principles of User Interface Design"</strong> de Bruce Tognazzini<br>
+<em>Fundamentos sobre principios clave de diseño de UI desde una perspectiva de usabilidad y eficiencia.</em></p>
+</li>
+</ol>
+<h3 id="2-webs-sobre-ui"><strong>2. Webs sobre UI</strong> </h3>
+<ol>
+<li>
+<p><a href="https://ui-patterns.com/">UI Patterns</a><br>
+<em>Ofrece patrones de diseño de interfaz para resolver problemas comunes y mejorar la experiencia de usuario.</em></p>
+</li>
+<li>
+<p><a href="https://dribbble.com/">Dribbble</a> y <a href="https://www.behance.net/">Behance</a><br>
+<em>Plataformas para inspirarse en el trabajo de otros diseñadores y ver interfaces en acción.</em></p>
+</li>
+<li>
+<p><a href="https://www.figma.com/blog/">Figma Blog</a><br>
+<em>Ofrece recursos, guías y artículos de diseño enfocados en la interfaz de usuario.</em></p>
+</li>
+</ol>
+<h3 id="3-guías-de-estilo"><strong>3. Guías de Estilo</strong> </h3>
+<ol>
+<li>
+<p><strong>Windows</strong></p>
+<ul>
+<li><strong>Microsoft Fluent Design System</strong><br>
+<a href="https://learn.microsoft.com/en-us/windows/apps/design/">Guía oficial de Microsoft Fluent Design</a></li>
+</ul>
+</li>
+<li>
+<p><strong>macOS</strong></p>
+<ul>
+<li><strong>Apple Human Interface Guidelines (HIG) - macOS</strong><br>
+<a href="https://developer.apple.com/design/human-interface-guidelines/macos/overview/">Guía oficial de Apple para macOS</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Android</strong></p>
+<ul>
+<li><strong>Material Design</strong><br>
+<a href="https://material.io/design">Guía oficial de Material Design</a></li>
+</ul>
+</li>
+<li>
+<p><strong>iOS</strong></p>
+<ul>
+<li><strong>Apple Human Interface Guidelines (HIG) - iOS</strong><br>
+<a href="https://developer.apple.com/design/human-interface-guidelines/ios/overview/">Guía oficial de Apple para iOS</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="herramientas-para-ux-experiencia-de-usuario-1"><strong>Herramientas para UX (Experiencia de Usuario)</strong> </h2>
+<h3 id="1-investigación-y-mapas-mentales"><strong>1. Investigación y Mapas Mentales</strong> </h3>
+<ol>
+<li><strong>Miro</strong><br>
+<a href="https://miro.com/">Miro</a></li>
+</ol>
+<h3 id="2-wireframing-y-prototipado"><strong>2. Wireframing y Prototipado</strong> </h3>
+<ol>
+<li>
+<p><strong>Whimsical</strong><br>
+<a href="https://whimsical.com/">Whimsical</a></p>
+</li>
+<li>
+<p><strong>Figma</strong><br>
+<a href="https://www.figma.com/">Figma</a></p>
+</li>
+<li>
+<p><strong>Axure RP</strong><br>
+<a href="https://www.axure.com/">Axure RP</a></p>
+</li>
+<li>
+<p><strong>Balsamiq</strong><br>
+<a href="https://balsamiq.com/">Balsamiq</a></p>
+</li>
+</ol>
+<h3 id="3-pruebas-de-usabilidad"><strong>3. Pruebas de Usabilidad</strong> </h3>
+<ol>
+<li>
+<p><strong>UserTesting</strong><br>
+<a href="https://www.usertesting.com/">UserTesting</a></p>
+</li>
+<li>
+<p><strong>Maze</strong><br>
+<a href="https://maze.co/">Maze</a></p>
+</li>
+<li>
+<p><strong>Lookback</strong><br>
+<a href="https://lookback.io/">Lookback</a></p>
+</li>
+</ol>
+<h3 id="4-análisis-y-mapas-de-calor"><strong>4. Análisis y Mapas de Calor</strong> </h3>
+<ol>
+<li>
+<p><strong>Hotjar</strong><br>
+<a href="https://www.hotjar.com/">Hotjar</a></p>
+</li>
+<li>
+<p><strong>Crazy Egg</strong><br>
+<a href="https://www.crazyegg.com/">Crazy Egg</a></p>
+</li>
+<li>
+<p><strong>Optimal Workshop</strong><br>
+<a href="https://www.optimalworkshop.com/">Optimal Workshop</a></p>
+</li>
+</ol>
+<hr>
+<h2 id="herramientas-para-ui-interfaz-de-usuario-1"><strong>Herramientas para UI (Interfaz de Usuario)</strong> </h2>
+<h3 id="1-diseño-y-prototipado-visual"><strong>1. Diseño y Prototipado Visual</strong> </h3>
+<ol>
+<li>
+<p><strong>Sketch</strong><br>
+<a href="https://www.sketch.com/">Sketch</a></p>
+</li>
+<li>
+<p><strong>Adobe XD</strong><br>
+<a href="https://www.adobe.com/products/xd.html">Adobe XD</a></p>
+</li>
+<li>
+<p><strong>InVision Studio</strong><br>
+<a href="https://www.invisionapp.com/studio">InVision</a></p>
+</li>
+</ol>
+<h3 id="2-componentes-y-sistemas-de-diseño"><strong>2. Componentes y Sistemas de Diseño</strong> </h3>
+<ol>
+<li>
+<p><strong>Zeplin</strong><br>
+<a href="https://zeplin.io/">Zeplin</a></p>
+</li>
+<li>
+<p><strong>Storybook</strong><br>
+<a href="https://storybook.js.org/">Storybook</a></p>
+</li>
+<li>
+<p><strong>Figma (Design Systems)</strong><br>
+<a href="https://www.figma.com/">Figma</a></p>
+</li>
+</ol>
+<h3 id="3-tipografía-y-paletas-de-colores"><strong>3. Tipografía y Paletas de Colores</strong> </h3>
+<ol>
+<li>
+<p><strong>Color Hunt</strong><br>
+<a href="https://colorhunt.co/">Color Hunt</a></p>
+</li>
+<li>
+<p><strong>Fontjoy</strong><br>
+<a href="https://fontjoy.com/">Fontjoy</a></p>
+</li>
+<li>
+<p><strong>Coolors</strong><br>
+<a href="https://coolors.co/">Coolors</a></p>
+</li>
+</ol>
+<hr>
+<h2 id="accesibilidad-1"><strong>Accesibilidad</strong> </h2>
+<h3 id="1-normas-y-estándares-internacionales"><strong>1. Normas y Estándares Internacionales</strong> </h3>
+<ol>
+<li>
+<p><strong>WCAG (Web Content Accessibility Guidelines)</strong><br>
+<a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG 2.1 en W3C</a></p>
+</li>
+<li>
+<p><strong>Section 508</strong><br>
+<a href="https://www.section508.gov/">Section 508</a></p>
+</li>
+<li>
+<p><strong>EN 301 549</strong><br>
+<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/">EN 301 549</a></p>
+</li>
+</ol>
+<h3 id="2-guías-y-centros-de-recursos-de-acces">**2. Guías y Centros de Recursos de Acces </h3>
+<p>ibilidad**</p>
+<ol>
+<li>
+<p><strong>W3C Web Accessibility Initiative (WAI)</strong><br>
+<a href="https://www.w3.org/WAI/">WAI</a></p>
+</li>
+<li>
+<p><strong>A11Y Project</strong><br>
+<a href="https://www.a11yproject.com/">A11Y Project</a></p>
+</li>
+<li>
+<p><strong>Accessibility Fundamentals - Microsoft</strong><br>
+<a href="https://docs.microsoft.com/en-us/learn/modules/accessibility-fundamentals/">Accessibility Fundamentals by Microsoft</a></p>
+</li>
+<li>
+<p><strong>Apple Accessibility</strong><br>
+<a href="https://developer.apple.com/accessibility/">Apple Accessibility</a></p>
+</li>
+</ol>
+<h3 id="3-artículos-blogs-y-sitios-de-información"><strong>3. Artículos, Blogs y Sitios de Información</strong> </h3>
+<ol>
+<li>
+<p><strong>WebAIM (Web Accessibility In Mind)</strong><br>
+<a href="https://webaim.org/">WebAIM</a></p>
+</li>
+<li>
+<p><strong>Smashing Magazine – Accessibility</strong><br>
+<a href="https://www.smashingmagazine.com/category/accessibility">Smashing Magazine - Accessibility</a></p>
+</li>
+<li>
+<p><strong>Inclusive Design Principles</strong><br>
+<a href="https://inclusivedesignprinciples.org/">Inclusive Design Principles</a></p>
+</li>
+<li>
+<p><strong>Simply Accessible</strong><br>
+<a href="https://simplyaccessible.com/">Simply Accessible</a></p>
+</li>
+</ol>
+<h3 id="4-organizaciones-y-redes-de-profesionales"><strong>4. Organizaciones y Redes de Profesionales</strong> </h3>
+<ol>
+<li>
+<p><strong>International Association of Accessibility Professionals (IAAP)</strong><br>
+<a href="https://www.accessibilityassociation.org/">IAAP</a></p>
+</li>
+<li>
+<p><strong>Deque University</strong><br>
+<a href="https://dequeuniversity.com/">Deque University</a></p>
+</li>
+<li>
+<p><strong>G3ict (The Global Initiative for Inclusive ICTs)</strong><br>
+<a href="https://g3ict.org/">G3ict</a></p>
+</li>
+</ol>
+<hr>
+<h2 id="herramientas-de-diagnóstico-y-pruebas-1"><strong>Herramientas de Diagnóstico y Pruebas</strong> </h2>
+<h3 id="1-herramientas-de-evaluación-automática"><strong>1. Herramientas de Evaluación Automática</strong> </h3>
+<ol>
+<li>
+<p><strong>Google Accessibility Developer Tools</strong><br>
+<a href="https://developers.google.com/web/tools/chrome-devtools/accessibility">Google Accessibility</a></p>
+</li>
+<li>
+<p><strong>Microsoft Accessibility Insights</strong><br>
+<a href="https://accessibilityinsights.io/">Accessibility Insights</a></p>
+</li>
+<li>
+<p><strong>Color Contrast Checker</strong><br>
+<a href="https://webaim.org/resources/contrastchecker/">Color Contrast Checker - WebAIM</a></p>
+</li>
+</ol>
+<h3 id="2-herramientas-para-testing-automatizado-en-cicd"><strong>2. Herramientas para Testing Automatizado en CI/CD</strong> </h3>
+<ol>
+<li>
+<p><strong>Pa11y</strong><br>
+<a href="http://pa11y.org/">Pa11y</a></p>
+</li>
+<li>
+<p><strong>Tenon</strong><br>
+<a href="https://tenon.io/">Tenon</a></p>
+</li>
+<li>
+<p><strong>Deque Axe-core</strong><br>
+<a href="https://github.com/dequelabs/axe-core">Axe-core</a></p>
+</li>
+</ol>
+<h3 id="3-herramientas-de-lectores-de-pantalla"><strong>3. Herramientas de Lectores de Pantalla</strong> </h3>
+<ol>
+<li>
+<p><strong>NVDA (NonVisual Desktop Access)</strong><br>
+<a href="https://www.nvaccess.org/">NVDA</a></p>
+</li>
+<li>
+<p><strong>VoiceOver</strong><br>
+<a href="https://www.apple.com/accessibility/vision/">VoiceOver en Apple</a></p>
+</li>
+<li>
+<p><strong>JAWS (Job Access With Speech)</strong><br>
+<a href="https://www.freedomscientific.com/Products/Blindness/JAWS/">JAWS</a></p>
+</li>
+</ol>
+<h3 id="4-simuladores-de-discapacidad"><strong>4. Simuladores de Discapacidad</strong> </h3>
+<ol>
+<li>
+<p><strong>Color Oracle</strong><br>
+<a href="https://colororacle.org/">Color Oracle</a></p>
+</li>
+<li>
+<p><strong>NoCoffee Vision Simulator</strong><br>
+<a href="https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl">NoCoffee</a></p>
+</li>
+</ol>
+<h3 id="5-generadores-y-validadores-de-contraste"><strong>5. Generadores y Validadores de Contraste</strong> </h3>
+<ol>
+<li>
+<p><strong>Contrast Checker (WebAIM)</strong><br>
+<a href="https://webaim.org/resources/contrastchecker/">Contrast Checker</a></p>
+</li>
+<li>
+<p><strong>Accessible Colors</strong><br>
+<a href="https://accessible-colors.com/">Accessible Colors</a></p>
+</li>
+<li>
+<p><strong>Contrast Grid</strong><br>
+<a href="https://contrast-grid.eightshapes.com/">Contrast Grid</a></p>
+</li>
+</ol>
+<h3 id="6-herramientas-para-diseño-inclusivo"><strong>6. Herramientas para Diseño Inclusivo</strong> </h3>
+<ol>
+<li>
+<p><strong>Tota11y</strong><br>
+<a href="https://khan.github.io/tota11y/">Tota11y</a></p>
+</li>
+<li>
+<p><strong>Inclusive Design Principles</strong><br>
+<a href="https://inclusivedesignprinciples.org/">Inclusive Design Principles</a></p>
+</li>
+<li>
+<p><strong>Accessible Name &amp; Description Inspector (ANDI)</strong><br>
+<a href="https://www.ssa.gov/accessibility/andi/help/install.html">ANDI</a></p>
+</li>
+</ol>
+<h3 id="7-pruebas-de-accesibilidad-y-evaluación-de-contenido"><strong>7. Pruebas de Accesibilidad y Evaluación de Contenido</strong> </h3>
+<ol>
+<li>
+<p><strong>Accessible Rich Internet Applications (ARIA) Validator</strong><br>
+<a href="https://validator.w3.org/nu/">ARIA Validator</a></p>
+</li>
+<li>
+<p><strong>Text Spacing Bookmarklet</strong><br>
+<a href="https://adrianroselli.com/2020/05/text-spacing-bookmarklet.html">Text Spacing</a></p>
+</li>
+</ol>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
